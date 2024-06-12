@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IBookStoreWeb", "IBookStoreWeb\IBookStoreWeb.csproj", "{4C9559D0-E608-476E-B4D3-31DFD1D4BF2A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{877B0E26-ADA9-4480-85A0-88F1D09C03DE}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{E50A0E18-0438-476C-9F1B-D32B368ED3D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{D2A4B695-1EF4-4BBC-8B00-0B21AA1D1697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{A0AA0547-E95D-48E7-8B6F-57A0B441B7D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C9559D0-E608-476E-B4D3-31DFD1D4BF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9559D0-E608-476E-B4D3-31DFD1D4BF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9559D0-E608-476E-B4D3-31DFD1D4BF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9559D0-E608-476E-B4D3-31DFD1D4BF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50A0E18-0438-476C-9F1B-D32B368ED3D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50A0E18-0438-476C-9F1B-D32B368ED3D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50A0E18-0438-476C-9F1B-D32B368ED3D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50A0E18-0438-476C-9F1B-D32B368ED3D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2A4B695-1EF4-4BBC-8B00-0B21AA1D1697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A4B695-1EF4-4BBC-8B00-0B21AA1D1697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A4B695-1EF4-4BBC-8B00-0B21AA1D1697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A4B695-1EF4-4BBC-8B00-0B21AA1D1697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0AA0547-E95D-48E7-8B6F-57A0B441B7D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0AA0547-E95D-48E7-8B6F-57A0B441B7D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0AA0547-E95D-48E7-8B6F-57A0B441B7D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0AA0547-E95D-48E7-8B6F-57A0B441B7D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

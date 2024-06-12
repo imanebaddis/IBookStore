@@ -1,0 +1,6 @@
+﻿services:
+  ibookstoreweb:
+    image: ibookstoreweb
+    build:
+      context: .
+      dockerfile: IBookStoreWeb/Dockerfile
