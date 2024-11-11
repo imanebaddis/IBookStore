@@ -12,12 +12,16 @@ Implementare la creazione dell'utente
 Implementare l'aggiornamento dell'utente
 Implementare l'eliminazione dell'utente
 Implementare la gestione dei ruoli (admin, cliente)
+
+
 Gestione Categorie di Libri
 Attività:
 Creare modello categoria
 Implementare la creazione della categoria
 Implementare l'aggiornamento della categoria
 Implementare l'eliminazione della categoria
+
+
 Gestione Libri
 Attività:
 Creare modello libro
@@ -26,6 +30,8 @@ Implementare l'aggiornamento del libro
 Implementare l'eliminazione del libro
 Visualizzare elenco di libri per i clienti
 Visualizzare i dettagli del libro
+
+
 Gestione Abbonamenti
 Attività:
 Creare modello abbonamento
@@ -34,17 +40,23 @@ Implementare la creazione dell'abbonamento
 Implementare l'aggiornamento dell'abbonamento
 Implementare l'eliminazione dell'abbonamento
 Gestire lo stato dell'abbonamento (attivo, inattivo, cancellato)
+
+
 Gestione Pagamenti
 Attività:
 Creare modello pagamento
 Integrare il gateway di pagamento (es. Satispay, PayPal)
 Implementare la creazione del pagamento
 Implementare l'aggiornamento del pagamento
+
+
 Gestire i metodi di pagamento
 Gestione Blacklist
 Attività:
 Creare modello blacklist
 Implementare il blacklisting degli utenti
+
+
 Gestire gli utenti in blacklist
 Gestione Cronologia e Preferiti
 Attività:
@@ -55,6 +67,8 @@ Implementare l'aggiunta di libri ai preferiti
 Implementare la rimozione di libri dai preferiti
 Visualizzare la cronologia delle attività dell'utente
 Visualizzare l'elenco dei preferiti
+
+
 Interfaccia Utente (Frontend)
 Epic: Interfaccia Utente (Frontend)
 Attività:
@@ -66,6 +80,9 @@ Implementare la pagina degli abbonamenti
 Implementare la pagina del profilo utente
 Implementare la gestione dei preferiti nell'interfaccia utente
 Implementare notifiche e messaggi per gli utenti
+
+
+
 Sicurezza e Autenticazione
 Attività:
 Implementare la registrazione utente
@@ -73,6 +90,8 @@ Implementare il login utente
 Implementare il reset della password
 Implementare la validazione dei dati
 Gestire permessi e controllo accessi
+
+
 Tracciamento Attività Utente e Raccomandazioni
 Attività:
 Implementare il tracciamento delle visualizzazioni delle categorie
